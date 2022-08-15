@@ -4,14 +4,14 @@ import { getEventos, postEventos, getEventosById, deleteEventosById, updateEvent
 
 const router = Router();
 
-router.get('/Eventos',getEventos);
+router.get('/eventos',getEventos);
 
-router.post('/Eventos',postEventos);
+router.post('/eventos',postEventos);
 
-router.get('/Eventos/:Id',getEventosById);
+router.get('/eventos/:Id',getEventosById);
 
-router.delete('/Eventos/:Id',deleteEventosById);
+router.delete('/eventos/:Id',deleteEventosById);
 
-router.put('/Eventos/:id',updateEventosById);
+router.put('/eventos/:id',updateEventosById);
 
 export default router;

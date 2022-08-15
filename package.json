@@ -1,0 +1,42 @@
+{
+  "name": "gap",
+  "version": "1.0.0",
+  "description": "API rest para gestor de asistencias de Asoc. Parras",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon API/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGarSer/GAP.git"
+  },
+  "keywords": [
+    "APIREST",
+    "NODEJS",
+    "EXCEL",
+    "HEROKU",
+    "MYSQL"
+  ],
+  "author": "Alex Garcia Serna Mat. 1725239 ITS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexGarSer/GAP/issues"
+  },
+  "homepage": "https://github.com/AlexGarSer/GAP#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "mssql": "^9.0.0",
+    "mysql": "^2.18.1",
+    "promise-mysql": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "nodemon": "^2.0.19"
+  }
+}

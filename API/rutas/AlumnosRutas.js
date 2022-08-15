@@ -1,16 +1,16 @@
 import { Router } from 'express';
-import { getAlumnos,getAlumnosById,postAlumnos,deleteAlumnosById,updateAlumnosById } from '../controladores/Alumnoscontroller';
+import { getAlumnos,postAlumnos,getAlumnosById,deleteAlumnosById,updateAlumnosById } from '../controladores/alumnoscontroller';
 
 const router = Router();
 
-router.get('/Alumnos', getAlumnos);
+router.get('/alumnos', getAlumnos);
 
-router.post('/Alumnos', postAlumnos);
+router.post('/alumnos', postAlumnos);
 
-router.get('/Alumnos/:Id',getAlumnosById);
+router.get('/alumnos/:Id',getAlumnosById);
 
-router.delete('/Alumnos/:Id',deleteAlumnosById);
+router.delete('/alumnos/:Id',deleteAlumnosById);
 
-router.put('/Alumnos/:id',updateAlumnosById);
+router.put('/alumnos/:id',updateAlumnosById);
 
 export default router;

@@ -4,14 +4,14 @@ import { getAsistencias, postAsistencias, getAsistenciasById, deleteAsistenciasB
 
 const router = Router();
 
-router.get('/Asistencias',getAsistencias);
+router.get('/asistencias',getAsistencias);
 
-router.post('/Asistencias',postAsistencias);
+router.post('/asistencias',postAsistencias);
 
-router.get('/Asistencias/:Id',getAsistenciasById);
+router.get('/asistencias/:Id',getAsistenciasById);
 
-router.delete('/Asistencias/:Id',deleteAsistenciasById);
+router.delete('/asistencias/:Id',deleteAsistenciasById);
 
-router.put('/Asistencias/:id',updateAsistenciasById);
+router.put('/asistencias/:id',updateAsistenciasById);
 
 export default router;

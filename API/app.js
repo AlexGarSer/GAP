@@ -2,11 +2,11 @@
 
 import express from 'express'
 import config from './config'
-import alumnosRutas from './rutas/alumnosRutas'
-import eventosRutas from './rutas/EventosRutas'
-import asistenciasRutas from './rutas/asistenciasRutas'
-import rolesRutas from './rutas/RolesRutas'
-import usuariosRutas from './rutas/usuariosRutas'
+import AlumnosRutas from './rutas/alumnosRutas'
+import EventosRutas from './rutas/EventosRutas'
+import AsistenciasRutas from './rutas/asistenciasRutas'
+import RolesRutas from './rutas/RolesRutas'
+import UsuariosRutas from './rutas/usuariosRutas'
 
 
 // App corre express

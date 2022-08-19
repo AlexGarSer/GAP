@@ -30,6 +30,7 @@
     "morgan": "^1.10.0",
     "mssql": "^9.0.0",
     "mysql": "^2.18.1",
+    "node": "^18.7.0",
     "promise-mysql": "^5.2.0"
   },
   "devDependencies": {
